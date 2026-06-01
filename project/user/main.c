@@ -15,7 +15,7 @@ int main(void)
 	//printf("C\r\n");
 	while(1)
 	{
-		printf("ABC");	
+		printf("DDD");	
 		wk_delay_ms(500);
 		
 	}
