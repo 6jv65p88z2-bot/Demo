@@ -1,0 +1,70 @@
+.\objects\poweroff.o: ..\marlin\marlin_module\poweroff.c
+.\objects\poweroff.o: ..\marlin\configure.h
+.\objects\poweroff.o: ..\..\libraries\cmsis\cm4\device_support\at32f435_437.h
+.\objects\poweroff.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
+.\objects\poweroff.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\poweroff.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_version.h
+.\objects\poweroff.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h
+.\objects\poweroff.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h
+.\objects\poweroff.o: ..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h
+.\objects\poweroff.o: ..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_def.h
+.\objects\poweroff.o: ..\inc\at32f435_437_conf.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_crm.h
+.\objects\poweroff.o: ..\..\libraries\cmsis\cm4\device_support\at32f435_437.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_tmr.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_ertc.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_gpio.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_i2c.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_usart.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_pwc.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_can.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_adc.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_dac.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_spi.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_dma.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_debug.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_flash.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_crc.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_wwdt.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_wdt.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_exint.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_sdio.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_xmc.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_acc.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_misc.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_edma.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_qspi.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_scfg.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_emac.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_dvp.h
+.\objects\poweroff.o: ..\..\libraries\drivers\inc\at32f435_437_usb.h
+.\objects\poweroff.o: ..\inc\at32f435_437_wk_config.h
+.\objects\poweroff.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\poweroff.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\string.h
+.\objects\poweroff.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\poweroff.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\math.h
+.\objects\poweroff.o: ..\inc\wk_system.h
+.\objects\poweroff.o: ..\marlin\marlin_core\Timeout.h
+.\objects\poweroff.o: ..\marlin\marlin_module\eeprom_at24cxx.h
+.\objects\poweroff.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\poweroff.o: ..\marlin\marlin_module\Heater.h
+.\objects\poweroff.o: ..\marlin\marlin_core\pid.h
+.\objects\poweroff.o: ..\marlin\marlin_core\mem_api.h
+.\objects\poweroff.o: ..\fatfs\source\ff.h
+.\objects\poweroff.o: ..\fatfs\source\ffconf.h
+.\objects\poweroff.o: ..\fatfs\source\diskio.h
+.\objects\poweroff.o: ..\marlin\marlin_core\motherboard.h
+.\objects\poweroff.o: ..\marlin\marlin_core\maintask.h
+.\objects\poweroff.o: ..\marlin\marlin_core\utf8.h
+.\objects\poweroff.o: ..\marlin\marlin_module\poweroff.h
+.\objects\poweroff.o: ..\marlin\marlin_core\pins.h
+.\objects\poweroff.o: ..\marlin\marlin_core\Marlin.h
+.\objects\poweroff.o: ..\marlin\marlin_core\planner.h
+.\objects\poweroff.o: ..\marlin\marlin_core\Configuration_adv.h
+.\objects\poweroff.o: ..\marlin\marlin_core\Marlin.h
+.\objects\poweroff.o: ..\marlin\marlin_core\vector_3.h
+.\objects\poweroff.o: ..\marlin\marlin_module\led.h
+.\objects\poweroff.o: ..\marlin\marlin_lcd\memu_gui.h
+.\objects\poweroff.o: ..\marlin\marlin_lcd\dgus_t300spro.h
+.\objects\poweroff.o: ..\marlin\marlin_module\fan.h

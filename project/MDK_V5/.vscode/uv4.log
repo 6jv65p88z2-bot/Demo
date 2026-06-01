@@ -1,0 +1,11 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Marlin_AT32'
+compiling main.c...
+linking...
+..\Marlin_AT32.sct(9): warning: L6329W: Pattern *.o(RAMCODE1) only matches removed unused sections.
+..\Marlin_AT32.sct(14): warning: L6314W: No section matches pattern *.o(RAMCODE2).
+Program Size: Code=4646 RO-data=618 RW-data=12 ZI-data=3172  
+Finished: 0 information, 2 warning and 0 error messages.
+FromELF: creating hex file...
+".\objects\Marlin_AT32.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:02

@@ -1,0 +1,71 @@
+.\objects\motherboard.o: ..\marlin\marlin_core\motherboard.c
+.\objects\motherboard.o: ..\marlin\marlin_lcd\memu_gui.h
+.\objects\motherboard.o: ..\marlin\marlin_core\marlin.h
+.\objects\motherboard.o: ..\marlin\configure.h
+.\objects\motherboard.o: ..\..\libraries\cmsis\cm4\device_support\at32f435_437.h
+.\objects\motherboard.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
+.\objects\motherboard.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\motherboard.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_version.h
+.\objects\motherboard.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h
+.\objects\motherboard.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h
+.\objects\motherboard.o: ..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h
+.\objects\motherboard.o: ..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_def.h
+.\objects\motherboard.o: ..\inc\at32f435_437_conf.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_crm.h
+.\objects\motherboard.o: ..\..\libraries\cmsis\cm4\device_support\at32f435_437.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_tmr.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_ertc.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_gpio.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_i2c.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_usart.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_pwc.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_can.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_adc.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_dac.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_spi.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_dma.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_debug.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_flash.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_crc.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_wwdt.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_wdt.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_exint.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_sdio.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_xmc.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_acc.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_misc.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_edma.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_qspi.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_scfg.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_emac.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_dvp.h
+.\objects\motherboard.o: ..\..\libraries\drivers\inc\at32f435_437_usb.h
+.\objects\motherboard.o: ..\inc\at32f435_437_wk_config.h
+.\objects\motherboard.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\motherboard.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\string.h
+.\objects\motherboard.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\motherboard.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\math.h
+.\objects\motherboard.o: ..\inc\wk_system.h
+.\objects\motherboard.o: ..\marlin\marlin_core\planner.h
+.\objects\motherboard.o: ..\marlin\marlin_core\Configuration_adv.h
+.\objects\motherboard.o: ..\marlin\marlin_core\Marlin.h
+.\objects\motherboard.o: ..\marlin\marlin_core\vector_3.h
+.\objects\motherboard.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\motherboard.o: ..\marlin\marlin_core\pins.h
+.\objects\motherboard.o: ..\marlin\marlin_module\led.h
+.\objects\motherboard.o: ..\marlin\marlin_lcd\dgus_t300spro.h
+.\objects\motherboard.o: ..\marlin\marlin_core\mem_api.h
+.\objects\motherboard.o: ..\fatfs\source\ff.h
+.\objects\motherboard.o: ..\fatfs\source\ffconf.h
+.\objects\motherboard.o: ..\fatfs\source\diskio.h
+.\objects\motherboard.o: ..\marlin\marlin_module\eeprom_at24cxx.h
+.\objects\motherboard.o: ..\marlin\marlin_core\motherboard.h
+.\objects\motherboard.o: ..\marlin\marlin_core\Timeout.h
+.\objects\motherboard.o: ..\marlin\marlin_module\heater.h
+.\objects\motherboard.o: ..\marlin\marlin_core\pid.h
+.\objects\motherboard.o: ..\marlin\marlin_msc\sdio_sdcard.h
+.\objects\motherboard.o: ..\marlin\marlin_module\thermistor.h
+.\objects\motherboard.o: ..\marlin\marlin_module\temperaturetable.h
+.\objects\motherboard.o: ..\marlin\marlin_core\filament_runout.h
+.\objects\motherboard.o: ..\marlin\marlin_module\fan.h
