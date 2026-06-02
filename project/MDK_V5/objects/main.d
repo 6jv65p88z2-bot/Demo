@@ -43,3 +43,4 @@
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: ..\user\wk_system.h
 .\objects\main.o: ..\user\at32f435_437_wk_config.h
+.\objects\main.o: ..\user\wk_gpio.h

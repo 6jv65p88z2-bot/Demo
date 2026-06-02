@@ -1,17 +1,17 @@
-.\objects\wk_gpio.o: ..\src\wk_gpio.c
-.\objects\wk_gpio.o: ..\inc\wk_gpio.h
-.\objects\wk_gpio.o: ..\inc\at32f435_437_wk_config.h
-.\objects\wk_gpio.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\wk_gpio.o: ..\user\wk_gpio.c
+.\objects\wk_gpio.o: ..\user\wk_gpio.h
+.\objects\wk_gpio.o: ..\user\at32f435_437_wk_config.h
+.\objects\wk_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\wk_gpio.o: ..\..\libraries\cmsis\cm4\device_support\at32f435_437.h
 .\objects\wk_gpio.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
-.\objects\wk_gpio.o: G:\development tool\Keil_5.34\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\wk_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\wk_gpio.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_version.h
 .\objects\wk_gpio.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h
 .\objects\wk_gpio.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h
 .\objects\wk_gpio.o: ..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h
 .\objects\wk_gpio.o: ..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h
 .\objects\wk_gpio.o: ..\..\libraries\drivers\inc\at32f435_437_def.h
-.\objects\wk_gpio.o: ..\inc\at32f435_437_conf.h
+.\objects\wk_gpio.o: C:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include\at32f435_437_conf.h
 .\objects\wk_gpio.o: ..\..\libraries\drivers\inc\at32f435_437_crm.h
 .\objects\wk_gpio.o: ..\..\libraries\cmsis\cm4\device_support\at32f435_437.h
 .\objects\wk_gpio.o: ..\..\libraries\drivers\inc\at32f435_437_tmr.h
@@ -41,3 +41,4 @@
 .\objects\wk_gpio.o: ..\..\libraries\drivers\inc\at32f435_437_emac.h
 .\objects\wk_gpio.o: ..\..\libraries\drivers\inc\at32f435_437_dvp.h
 .\objects\wk_gpio.o: ..\..\libraries\drivers\inc\at32f435_437_usb.h
+.\objects\wk_gpio.o: ..\user\wk_system.h

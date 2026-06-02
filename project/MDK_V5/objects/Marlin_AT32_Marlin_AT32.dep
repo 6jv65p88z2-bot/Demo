@@ -1,6 +1,6 @@
 Dependencies for Project 'Marlin_AT32', Target 'Marlin_AT32': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (..\user\main.c)(0x6A1D392E)(-c --cpu Cortex-M4.fp.sp -g -W -O2 --apcs=interwork -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\delay -I ..\fatfs\source -I ..\marlin -I ..\marlin\marlin_core -I ..\marlin\marlin_gcode -I ..\marlin\marlin_lcd -I ..\marlin\marlin_msc -I ..\marlin\marlin_module-IC:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-D__UVISION_VERSION="534" -DAT32F435VGT7 -DAT32F435VGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\user\main.c)(0x6A1EA165)(-c --cpu Cortex-M4.fp.sp -g -W -O2 --apcs=interwork -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\delay -I ..\fatfs\source -I ..\marlin -I ..\marlin\marlin_core -I ..\marlin\marlin_gcode -I ..\marlin\marlin_lcd -I ..\marlin\marlin_msc -I ..\marlin\marlin_module-IC:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-D__UVISION_VERSION="534" -DAT32F435VGT7 -DAT32F435VGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\user\Delay.h)(0x6A142D38)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x67755660)
 I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67755660)
@@ -43,7 +43,8 @@ I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x67755660)
 I (..\user\wk_usart.h)(0x6A1D0429)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
 I (..\user\wk_system.h)(0x6A1D33E9)
-I (..\user\at32f435_437_wk_config.h)(0x6A1D2E9A)
+I (..\user\at32f435_437_wk_config.h)(0x6A1E8788)
+I (..\user\wk_gpio.h)(0x6A1EA153)
 F (..\user\Delay.c)(0x6A1CF737)(-c --cpu Cortex-M4.fp.sp -g -W -O2 --apcs=interwork -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\delay -I ..\fatfs\source -I ..\marlin -I ..\marlin\marlin_core -I ..\marlin\marlin_gcode -I ..\marlin\marlin_lcd -I ..\marlin\marlin_msc -I ..\marlin\marlin_module-IC:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-D__UVISION_VERSION="534" -DAT32F435VGT7 -DAT32F435VGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
 I (..\user\Delay.h)(0x6A142D38)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x67755660)
@@ -84,7 +85,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_scfg.h)(0x67755660)
 I (..\..\libraries\drivers\inc\at32f435_437_emac.h)(0x67755660)
 I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x67755660)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x67755660)
-F (..\user\wk_usart.c)(0x6A1D2717)(-c --cpu Cortex-M4.fp.sp -g -W -O2 --apcs=interwork -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\delay -I ..\fatfs\source -I ..\marlin -I ..\marlin\marlin_core -I ..\marlin\marlin_gcode -I ..\marlin\marlin_lcd -I ..\marlin\marlin_msc -I ..\marlin\marlin_module-IC:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-D__UVISION_VERSION="534" -DAT32F435VGT7 -DAT32F435VGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\wk_usart.o --omf_browse .\objects\wk_usart.crf --depend .\objects\wk_usart.d)
+F (..\user\wk_usart.c)(0x6A1E7A48)(-c --cpu Cortex-M4.fp.sp -g -W -O2 --apcs=interwork -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\delay -I ..\fatfs\source -I ..\marlin -I ..\marlin\marlin_core -I ..\marlin\marlin_gcode -I ..\marlin\marlin_lcd -I ..\marlin\marlin_msc -I ..\marlin\marlin_module-IC:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-D__UVISION_VERSION="534" -DAT32F435VGT7 -DAT32F435VGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\wk_usart.o --omf_browse .\objects\wk_usart.crf --depend .\objects\wk_usart.d)
 I (..\user\wk_usart.h)(0x6A1D0429)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x67755660)
@@ -166,7 +167,7 @@ I (..\..\libraries\drivers\inc\at32f435_437_emac.h)(0x67755660)
 I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x67755660)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x67755660)
 F (..\user\at32f435_437_wk_config.c)(0x6A1D36B7)(-c --cpu Cortex-M4.fp.sp -g -W -O2 --apcs=interwork -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\delay -I ..\fatfs\source -I ..\marlin -I ..\marlin\marlin_core -I ..\marlin\marlin_gcode -I ..\marlin\marlin_lcd -I ..\marlin\marlin_msc -I ..\marlin\marlin_module-IC:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-D__UVISION_VERSION="534" -DAT32F435VGT7 -DAT32F435VGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\at32f435_437_wk_config.o --omf_browse .\objects\at32f435_437_wk_config.crf --depend .\objects\at32f435_437_wk_config.d)
-I (..\user\at32f435_437_wk_config.h)(0x6A1D2E9A)
+I (..\user\at32f435_437_wk_config.h)(0x6A1E8788)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
 I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x67755660)
 I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67755660)
@@ -208,6 +209,49 @@ I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x67755660)
 I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x67755660)
 F (..\user\at32f435_437_int.c)(0x6A1D33A7)(-c --cpu Cortex-M4.fp.sp -g -W -O2 --apcs=interwork -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\delay -I ..\fatfs\source -I ..\marlin -I ..\marlin\marlin_core -I ..\marlin\marlin_gcode -I ..\marlin\marlin_lcd -I ..\marlin\marlin_msc -I ..\marlin\marlin_module-IC:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-D__UVISION_VERSION="534" -DAT32F435VGT7 -DAT32F435VGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\at32f435_437_int.o --omf_browse .\objects\at32f435_437_int.crf --depend .\objects\at32f435_437_int.d)
 I (..\user\at32f435_437_int.h)(0x6A1D3341)
+F (..\user\wk_gpio.c)(0x6A1EA1F8)(-c --cpu Cortex-M4.fp.sp -g -W -O2 --apcs=interwork -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\delay -I ..\fatfs\source -I ..\marlin -I ..\marlin\marlin_core -I ..\marlin\marlin_gcode -I ..\marlin\marlin_lcd -I ..\marlin\marlin_msc -I ..\marlin\marlin_module-IC:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-D__UVISION_VERSION="534" -DAT32F435VGT7 -DAT32F435VGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\wk_gpio.o --omf_browse .\objects\wk_gpio.crf --depend .\objects\wk_gpio.d)
+I (..\user\wk_gpio.h)(0x6A1EA153)
+I (..\user\at32f435_437_wk_config.h)(0x6A1E8788)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\libraries\cmsis\cm4\device_support\at32f435_437.h)(0x67755660)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67755660)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67755660)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67755660)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x67755660)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67755660)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f435_437.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_def.h)(0x67755660)
+I (C:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include\at32f435_437_conf.h)(0x6923BCDA)
+I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_tmr.h)(0x69533FD4)
+I (..\..\libraries\drivers\inc\at32f435_437_ertc.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_gpio.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_i2c.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_usart.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_pwc.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_can.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_adc.h)(0x677BC6DA)
+I (..\..\libraries\drivers\inc\at32f435_437_dac.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_spi.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_dma.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_debug.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_flash.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_crc.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_wwdt.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_wdt.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_exint.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_sdio.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_xmc.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_acc.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_misc.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_edma.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_qspi.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_scfg.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_emac.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_dvp.h)(0x67755660)
+I (..\..\libraries\drivers\inc\at32f435_437_usb.h)(0x67755660)
+I (..\user\wk_system.h)(0x6A1D33E9)
 F (..\..\libraries\drivers\src\at32f435_437_crm.c)(0x67755660)(-c --cpu Cortex-M4.fp.sp -g -W -O2 --apcs=interwork -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\delay -I ..\fatfs\source -I ..\marlin -I ..\marlin\marlin_core -I ..\marlin\marlin_gcode -I ..\marlin\marlin_lcd -I ..\marlin\marlin_msc -I ..\marlin\marlin_module-IC:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include-D__UVISION_VERSION="534" -DAT32F435VGT7 -DAT32F435VGT7 -DUSE_STDPERIPH_DRIVER-o .\objects\at32f435_437_crm.o --omf_browse .\objects\at32f435_437_crm.crf --depend .\objects\at32f435_437_crm.d)
 I (C:\Users\Administrator\AppData\Local\Arm\Packs\ArteryTek\AT32F435_437_DFP\2.2.4\Device\Include\at32f435_437_conf.h)(0x6923BCDA)
 I (..\..\libraries\drivers\inc\at32f435_437_crm.h)(0x67755660)

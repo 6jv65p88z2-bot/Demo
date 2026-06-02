@@ -5,6 +5,7 @@
 ".\objects\wk_system.o"
 ".\objects\at32f435_437_wk_config.o"
 ".\objects\at32f435_437_int.o"
+".\objects\wk_gpio.o"
 ".\objects\at32f435_437_crm.o"
 ".\objects\at32f435_437_tmr.o"
 ".\objects\at32f435_437_ertc.o"

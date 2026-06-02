@@ -412,6 +412,11 @@
               <FileType>1</FileType>
               <FilePath>..\user\at32f435_437_int.c</FilePath>
             </File>
+            <File>
+              <FileName>wk_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\user\wk_gpio.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
